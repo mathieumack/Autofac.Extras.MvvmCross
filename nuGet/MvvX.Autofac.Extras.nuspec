@@ -2,7 +2,7 @@
  <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>MvvX.Autofac.Extras</id>
-        <version>1.1.6.41472</version>
+        <version>1.1.7.38048</version>
         <title>Autofac ioc for MvvmCross</title>
         <authors>MACK Mathieu</authors>
         <owners>MACK Mathieu</owners>
@@ -33,7 +33,5 @@
         <!-- iOS -->
         <file src="..\MvvX.Autofac.Extras\bin\Release\MvvX.Autofac.Extras.XML" target="lib\MonoTouch10" />
         <file src="..\MvvX.Autofac.Extras\bin\Release\MvvX.Autofac.Extras.dll" target="lib\MonoTouch10" />
-        <file src="..\MvvX.Autofac.Extras\bin\Release\MvvX.Autofac.Extras.XML" target="lib\Xamarin.iOS10" />
-        <file src="..\MvvX.Autofac.Extras\bin\Release\MvvX.Autofac.Extras.dll" target="lib\Xamarin.iOS10" />
     </files>
 </package>

@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // Les informations générales relatives à un assembly dépendent de 
 // l'ensemble d'attributs suivant. Changez les valeurs de ces attributs pour modifier les informations
 // associées à un assembly.
-[assembly: AssemblyTitle("MvvX.Autofac.Extras")]
+[assembly: AssemblyTitle("MvvX.Autofac.Extras.UnitTests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("MvvX.Autofac.Extras")]
+[assembly: AssemblyProduct("MvvX.Autofac.Extras.UnitTests")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -26,5 +26,5 @@ using System.Runtime.InteropServices;
 // Vous pouvez spécifier toutes les valeurs ou utiliser par défaut les numéros de build et de version 
 // en utilisant '*', comme indiqué ci-dessous :
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.1.7.*")]
-[assembly: AssemblyFileVersion("1.1.7.0")]
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]

@@ -13,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvX.Autofac.Extras", "MvvX.Autofac.Extras\MvvX.Autofac.Extras.csproj", "{1E32966C-6086-46D1-876A-C3A2C0E67C4A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4D213AEA-58A9-4511-B734-CBC6CE97C23A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvX.Autofac.Extras.UnitTests", "MvvX.Autofac.Extras.UnitTests\MvvX.Autofac.Extras.UnitTests.csproj", "{73E024AC-9D27-4150-803D-F86D1BA47E8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,11 +27,16 @@ Global
 		{1E32966C-6086-46D1-876A-C3A2C0E67C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E32966C-6086-46D1-876A-C3A2C0E67C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E32966C-6086-46D1-876A-C3A2C0E67C4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73E024AC-9D27-4150-803D-F86D1BA47E8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73E024AC-9D27-4150-803D-F86D1BA47E8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73E024AC-9D27-4150-803D-F86D1BA47E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73E024AC-9D27-4150-803D-F86D1BA47E8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1E32966C-6086-46D1-876A-C3A2C0E67C4A} = {0AF7FE58-6AC9-41E3-817D-8251DB8C5629}
+		{73E024AC-9D27-4150-803D-F86D1BA47E8C} = {4D213AEA-58A9-4511-B734-CBC6CE97C23A}
 	EndGlobalSection
 EndGlobal

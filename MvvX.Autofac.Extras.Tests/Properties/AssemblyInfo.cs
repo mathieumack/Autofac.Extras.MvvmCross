@@ -1,20 +1,26 @@
-﻿using System.Resources;
-using System.Reflection;
+﻿using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // Les informations générales relatives à un assembly dépendent de 
 // l'ensemble d'attributs suivant. Changez les valeurs de ces attributs pour modifier les informations
 // associées à un assembly.
-[assembly: AssemblyTitle("MvvX.Autofac.Extras")]
+[assembly: AssemblyTitle("MvvX.Autofac.Extras.Tests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("MvvX.Autofac.Extras")]
+[assembly: AssemblyProduct("MvvX.Autofac.Extras.Tests")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
-[assembly: NeutralResourcesLanguage("fr")]
+
+// L'affectation de la valeur false à ComVisible rend les types invisibles dans cet assembly 
+// aux composants COM.  Si vous devez accéder à un type dans cet assembly à partir de 
+// COM, affectez la valeur true à l'attribut ComVisible sur ce type.
+[assembly: ComVisible(false)]
+
+// Le GUID suivant est pour l'ID de la typelib si ce projet est exposé à COM
+[assembly: Guid("79a9e770-f17d-44bd-872f-6bfae505c662")]
 
 // Les informations de version pour un assembly se composent des quatre valeurs suivantes :
 //
@@ -23,8 +29,8 @@ using System.Runtime.InteropServices;
 //      Numéro de build
 //      Révision
 //
-// Vous pouvez spécifier toutes les valeurs ou utiliser par défaut les numéros de build et de version 
+// Vous pouvez spécifier toutes les valeurs ou vous pouvez définir par défaut les numéros de build et de révision 
 // en utilisant '*', comme indiqué ci-dessous :
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.1.7.*")]
-[assembly: AssemblyFileVersion("1.1.7.0")]
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]
