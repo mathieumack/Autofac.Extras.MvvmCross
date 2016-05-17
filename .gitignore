@@ -199,3 +199,4 @@ FakesAssemblies/
 
 # Mac OS
 *DS_Store
+/nuGet/MvvX.Autofac.Extras.1.*

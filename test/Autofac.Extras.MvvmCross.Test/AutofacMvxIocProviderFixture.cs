@@ -5,6 +5,12 @@ using Xunit;
 
 namespace Autofac.Extras.MvvmCross.Test
 {
+    public interface I { }
+
+    public class I1 : I { }
+
+    public class I2 : I { }
+
     public class AutofacMvxIocProviderFixture : IDisposable
     {
         IContainer _container;
@@ -98,6 +104,21 @@ namespace Autofac.Extras.MvvmCross.Test
         public void GetSingletonThrowsArgumentNullExceptionWhenCalledWithNoTypeArgument()
         {
             Assert.Throws<ArgumentNullException>(() => _provider.GetSingleton(null));
+        }
+
+        [Fact]
+        public void TryResolveWithManyImplements()
+        {
+            var builder = new ContainerBuilder();
+            builder.Register(c => new object());
+            builder.Register(c => new object());
+            builder.Update(_container);
+
+            object foo;
+            var success = _provider.TryResolve(out foo);
+
+            Assert.IsType<object>(foo);
+            Assert.True(success);
         }
 
         [Fact]

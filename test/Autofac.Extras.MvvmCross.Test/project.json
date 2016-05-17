@@ -1,21 +1,60 @@
 ﻿{
-    "authors": ["Autofac Contributors"],
-    "compilationOptions": {
-        "warningsAsErrors": true
+  "authors": [ "Autofac Contributors" ],
+  "compilationOptions": {
+    "warningsAsErrors": true
+  },
+  "compile": [ "**\\*.cs" ],
+  "resource": [ "**\\*.resx", "Files\\*.*" ],
+  "commands": {
+    "test": "xunit.runner.dnx"
+  },
+  "dependencies": {
+    "Autofac.Extras.MvvmCross": "4.1.0-beta7-*",
+    "xunit": "2.1.0-rc1-*",
+    "xunit.runner.dnx": "2.1.0-beta5-*",
+    "xunit.runner.visualstudio": "2.1.0-*"
+  },
+  "frameworks": {
+    "dnx451": {
+      "frameworkAssemblies": {
+        "System.Runtime": ""
+      },
+      "dependencies": {
+        "System.Threading.Tasks": "4.0.11-beta-23516"
+      }
     },
-    "compile": ["**\\*.cs"],
-    "resource": ["**\\*.resx", "Files\\*.*"],
-    "commands": {
-        "test": "xunit.runner.dnx"
+    "dotnet": {
+      "dependencies": {
+        "System.Collections": "4.0.11-beta-*",
+        "System.ComponentModel.TypeConverter": "4.0.1-beta-*",
+        "System.Diagnostics.Tools": "4.0.1-beta-*",
+        "System.Globalization": "4.0.11-beta-*",
+        "System.IO": "4.0.11-beta-*",
+        "System.Linq": "4.0.1-beta-*",
+        "System.Reflection": "4.1.0-beta-*",
+        "System.Reflection.Extensions": "4.0.1-beta-*",
+        "System.Reflection.TypeExtensions": "4.0.1-beta-*",
+        "System.Resources.ResourceManager": "4.0.1-beta-*",
+        "System.Threading.Tasks": "4.0.11-beta-*"
+      }
     },
-    "dependencies": {
-        "Autofac.Extras.MvvmCross": "4.0.0-beta7-*",
-        "xunit": "2.1.0-rc1-*",
-        "xunit.runner.dnx": "2.1.0-beta5-*",
-        "xunit.runner.visualstudio": "2.1.0-*"
+    "net45": {
+      "frameworkAssemblies": {
+        "System.Runtime": ""
+      },
+      "dependencies": {
+        "System.Globalization": "4.0.11-beta-23516",
+        "System.Threading.Tasks": "4.0.11-beta-23516"
+      }
     },
-    "frameworks": {
-        "dnx451": { },
-        "dnxcore50": { }
+    "netcore45": {
+      "frameworkAssemblies": {
+        "System.Runtime": ""
+      },
+      "dependencies": {
+        "System.Globalization": "4.0.11-beta-23516",
+        "System.Threading.Tasks": "4.0.11-beta-23516"
+      }
     }
+  }
 }

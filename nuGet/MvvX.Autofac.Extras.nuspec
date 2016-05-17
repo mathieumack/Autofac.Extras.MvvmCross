@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>MvvX.Autofac.Extras</id>
+        <version>1.1.6.41472</version>
+        <title>Autofac ioc for MvvmCross</title>
+        <authors>MACK Mathieu</authors>
+        <owners>MACK Mathieu</owners>
+        <licenseUrl>https://github.com/mathieumack/Autofac.Extras.MvvmCross</licenseUrl>
+        <projectUrl>https://github.com/mathieumack/Autofac.Extras.MvvmCross</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>This package contains the 'MvvX.Autofac.Extras' extension for MvvmCross that allow you to use Autofac as IOC.</description>
+        <tags>mvvm mvvmcross xamarin monodroid monotouch wpf netcore wp wpdev autofac mvvmcross</tags>
+        <dependencies>
+            <!-- Always include regardless of target framework -->
+            <dependency id="Autofac" version="3.5.2" />
+            <dependency id="MvvmCross.Platform" version="4.1.0" />
+        </dependencies>  
+    </metadata>
+    <files>     
+        <!-- ALL -->
+        <file src="..\MvvX.Autofac.Extras\bin\Release\MvvX.Autofac.Extras.XML" target="lib\portable-net45+sl5+wp8+wpa81+win8+monoandroid+monotouch" />
+        <file src="..\MvvX.Autofac.Extras\bin\Release\MvvX.Autofac.Extras.dll" target="lib\portable-net45+sl5+wp8+wpa81+win8+monoandroid+monotouch" />
+        
+        <!-- .net 4.5+ -->
+        <file src="..\MvvX.Autofac.Extras\bin\Release\MvvX.Autofac.Extras.XML" target="lib\net45" />
+        <file src="..\MvvX.Autofac.Extras\bin\Release\MvvX.Autofac.Extras.dll" target="lib\net45" />
+    </files>
+</package>

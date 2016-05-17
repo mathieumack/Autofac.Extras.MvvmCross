@@ -29,10 +29,11 @@ using System.Linq;
 using Autofac.Core;
 using Autofac.Core.Lifetime;
 using Autofac.Core.Registration;
-using Cirrious.CrossCore.Core;
-using Cirrious.CrossCore.IoC;
+using MvvmCross.Platform.Core;
+using MvvmCross.Platform.IoC;
+using Autofac;
 
-namespace Autofac.Extras.MvvmCross
+namespace MvvX.Autofac.Extras
 {
     /// <summary>
     /// Inversion of control provider for the MvvmCross framework backed by Autofac.
