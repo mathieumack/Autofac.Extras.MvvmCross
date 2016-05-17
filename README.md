@@ -4,7 +4,7 @@ MvvX.Autofac.Extras
 This project is a fork of the original project : https://github.com/autofac/Autofac.Extras.MvvmCross
 
 ## Compatibility
-This project already works only for a WPF app. The nucpec file will be updated quickly.
+This project already works only for a WPF app. The nuspec file will be updated quickly.
 
 ###How to use it ?
 #### Add package from nuGet
@@ -26,4 +26,4 @@ Override the  CreateIocProvider() method, and add a new container :
 
 End !
 
-All registered class or interface will used Autofac !
+All registered class or interface will use Autofac !
