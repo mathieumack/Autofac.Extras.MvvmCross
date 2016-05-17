@@ -25,5 +25,15 @@
         <!-- .net 4.5+ -->
         <file src="..\MvvX.Autofac.Extras\bin\Release\MvvX.Autofac.Extras.XML" target="lib\net45" />
         <file src="..\MvvX.Autofac.Extras\bin\Release\MvvX.Autofac.Extras.dll" target="lib\net45" />
+        
+        <!-- Android -->
+        <file src="..\MvvX.Autofac.Extras\bin\Release\MvvX.Autofac.Extras.XML" target="lib\monoandroid" />
+        <file src="..\MvvX.Autofac.Extras\bin\Release\MvvX.Autofac.Extras.dll" target="lib\MonoAndroid" />
+        
+        <!-- iOS -->
+        <file src="..\MvvX.Autofac.Extras\bin\Release\MvvX.Autofac.Extras.XML" target="lib\MonoTouch10" />
+        <file src="..\MvvX.Autofac.Extras\bin\Release\MvvX.Autofac.Extras.dll" target="lib\MonoTouch10" />
+        <file src="..\MvvX.Autofac.Extras\bin\Release\MvvX.Autofac.Extras.XML" target="lib\Xamarin.iOS10" />
+        <file src="..\MvvX.Autofac.Extras\bin\Release\MvvX.Autofac.Extras.dll" target="lib\Xamarin.iOS10" />
     </files>
 </package>
