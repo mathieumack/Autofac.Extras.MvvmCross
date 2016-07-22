@@ -17,3 +17,7 @@ Foreach-Object {$_ -replace "(<version>([0-9.]+)<\/version>)", "<version>$Assemb
 Set-Content $nuSpecFile
 
 .\NuGet pack MvvX.Autofac.Extras.nuspec
+
+$apiKey = Read-Host 'Please set apiKey to publish to nuGet :'
+	
+.\NuGet push MvvX.Autofac.Extras.$Assemblyversion.nupkg -Source https://www.nuget.org/api/v2/package -ApiKey $apiKey

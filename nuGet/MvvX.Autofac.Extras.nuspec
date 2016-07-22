@@ -2,7 +2,7 @@
  <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>MvvX.Autofac.Extras</id>
-        <version>1.1.7.38048</version>
+        <version>1.1.8.16071</version>
         <title>Autofac ioc for MvvmCross</title>
         <authors>MACK Mathieu</authors>
         <owners>MACK Mathieu</owners>
@@ -14,7 +14,7 @@
         <dependencies>
             <!-- Always include regardless of target framework -->
             <dependency id="Autofac" version="3.5.2" />
-            <dependency id="MvvmCross.Platform" version="4.1.0" />
+            <dependency id="MvvmCross.Platform" version="4.2.2" />
         </dependencies>  
     </metadata>
     <files>     

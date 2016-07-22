@@ -148,7 +148,7 @@ publish/
 !**/packages/build/
 # Don't check in NuGet proper
 .nuget/
-nuget.exe
+!nuget.exe
 # If using the old MSBuild-Integrated Package Restore, uncomment this:
 #!**/packages/repositories.config
 # Local filesystem/test NuGet
